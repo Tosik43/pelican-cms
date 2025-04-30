@@ -49,7 +49,7 @@ export default ({ env }) => ({
                     draft: {
                         url: `${env('FRONTEND_URL')}/api/preview`,
                         query: {
-                            slug: '',
+                            slug: 'home',
                             secret: env('PREVIEW_SECRET')
                         },
                         openTarget: 'StrapiPreviewPage',
